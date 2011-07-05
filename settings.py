@@ -78,16 +78,3 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'items',
 )
-
-STATIC_URL = '/static/'
-STATIC_ROOT = '/home/django/todos/static/'
-STATICFILES_DIRS = (
-	('js', '/js'),
-	('css', '/css'),
-	('img', '/img'),
-)
-
-STATICFILES_FINDERS = (
-    "django.contrib.staticfiles.finders.FileSystemFinder",
-    "django.contrib.staticfiles.finders.AppDirectoriesFinder",
-)
